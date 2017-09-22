@@ -1,0 +1,8 @@
+
+
+module.exports = function(){
+    return function(alexa){
+        alexa.res.response.shouldEndSession = true;
+        return alexa;
+    };
+};
